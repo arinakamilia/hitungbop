@@ -152,7 +152,11 @@ public class Hitungbop {
   System.out.println("NIK \t\t\t\t= "+nik);
   System.out.println("Nama\t\t\t\t= "+nama);
   System.out.println("Bulan\t\t\t= "+bulan);
-  int bayar = hb.checkgol(gol, potongan);
+
+System.out.println("Transaksi Berhasil");	  
+
+
+int bayar = hb.checkgol(gol, potongan);
     }
     
 }
