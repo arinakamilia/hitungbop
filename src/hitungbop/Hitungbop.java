@@ -22,7 +22,7 @@ public class Hitungbop {
         if(email.equals("Hitungbop@gmail.com")){
         }
         else if(!email.equals("Hitungbop@gmail.com")){
-            System.out.println("Gagal login");
+            System.out.println("Login Failed");
             System.exit(0);
         }
         
@@ -33,10 +33,10 @@ public class Hitungbop {
         
         if(pass.equals("beasiswa")){
             System.out.println("");
-            System.out.println("--Berhasil login--");
+            System.out.println("--Login Success--");
         }
         else if(!pass.equals("beasiswa")){
-            System.out.println("Gagal login");
+            System.out.println("Login Failed");
             System.exit(0);
         }
         
@@ -153,7 +153,7 @@ public class Hitungbop {
   System.out.println("Nama\t\t\t\t= "+nama);
   System.out.println("Bulan\t\t\t= "+bulan);
 
-System.out.println("Transaksi Berhasil");	  
+System.out.println("Terimakasih Transaksi Berhasil");	  
 
 
 int bayar = hb.checkgol(gol, potongan);
